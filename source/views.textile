@@ -331,7 +331,7 @@ AddressBook.ContactNameView = SC.View.extend({
 
 h4. Render Delegates
 
-Render delegates are an way to manage theming your apps. You can create a render delegate to manage the rendering of your views for you and add it to the theme you're using. Render delegates also have a +render+ and +update+ method, but their first argument is the +dataSource+, or the view delegating to them. Let's recreate the last scenario using an +SC.RenderDelegate+ that we're going to create in +render_delegates/contact_name.js+:
+Render delegates are a way to manage theming your apps. You can create a render delegate to manage the rendering of your views for you and add it to the theme you're using. Render delegates also have a +render+ and +update+ method, but their first argument is the +dataSource+, or the view delegating to them. Let's recreate the last scenario using an +SC.RenderDelegate+ that we're going to create in +render_delegates/contact_name.js+:
 
 <javascript filename="apps/addressbook/render_delegates/contact_name.js">
 AddressBook.MyTheme.contactNameRenderDelegate = SC.RenderDelegate.create({
